@@ -1,106 +1,105 @@
 {
-    "workbench.iconTheme": "vscode-great-icons",
-    "editor.cursorWidth": 3,
-    "workbench.tree.renderIndentGuides": "none",
-    "window.restoreFullscreen": true,
-    "explorer.compactFolders": false,
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.cursorStyle": "line",
-    "problems.decorations.enabled": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.preferredHighContrastColorTheme": "Material Theme Palenight High Contrast",
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
-    "editor.minimap.enabled": false,
-    "workbench.colorCustomizations": {
-        "sideBar.foreground":  "#B2CCD6",
-        "editorLineNumber.foreground": "#616364",
-        "editorLineNumber.activeForeground": "#757CA1",
-        "breadcrumb.focusForeground": "#A6ACCD",
-        "gitDecoration.modifiedResourceForeground": "#B2CCD6"
-    },
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        {
-          "scope": "comment punctuation.definition.comment, string.quoted.docstring",
-          "settings": {
-            "foreground": "#616364"
-          }
-        },
-        {
-          "scope": "constant.language.php",
-          "settings": {
-            "foreground": "#F78C6C"
-          }
-        },
-        {
-          "scope": "variable.language.this.php",
-          "settings": {
-            "foreground": "#f0121e"
-          }
-        },
-        {
-          "scope": [
-            "keyword.control.return.php",
-            "keyword.control.foreach.php",
-            "keyword.control.if.php",
-            "keyword.control"
-          ],
-          "settings": {
-            "foreground": "#C792EA"
-          }
-        },
-        {
-          "scope": [
-            "comment",
-            "comment storage.type",
-            "comment variable",
-            "comment support.variable", 
-            "comment support.class",
-            "comment support.type",
-            "comment entity.name.type",
-            "comment entity.name.class",
-            "comment keyword.operator",
-            "comment entity.punctuation",
-            "comment.block.documentation",
-            "punctuation.definition.bracket.curly.begin.jsdoc",
-            "punctuation.definition.bracket.curly.end.jsdoc",
-            "entity.name.type.instance.jsdoc",
-            "comment.block.documentation.js",
-            "source.js",
-            "punctuation.definition.block.tag.jsdoc",
-            "storage.type.class.jsdoc",
-            "keyword.other.phpdoc.php",
-            "comment.block.documentation.phpdoc.php",
-            "meta.class.body.php",
-            "meta.class.php",
-            "meta.embedded.block.php",
-            "text.html.php",
-            "meta.other.type.phpdoc.php",
-            "keyword.other.array.phpdoc.php",
-            "meta.other.type.phpdoc.php"
-            ],
-          "settings": {
-              "foreground": "#616364"
-          }
+  "editor.cursorWidth": 3,
+  "workbench.tree.renderIndentGuides": "none",
+  "window.restoreFullscreen": true,
+  "explorer.compactFolders": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorStyle": "line",
+  "problems.decorations.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.preferredHighContrastColorTheme": "Material Theme Palenight High Contrast",
+  "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+      "sideBar.foreground":  "#B2CCD6",
+      "editorLineNumber.foreground": "#616364",
+      "editorLineNumber.activeForeground": "#757CA1",
+      "breadcrumb.focusForeground": "#A6ACCD",
+      "gitDecoration.modifiedResourceForeground": "#B2CCD6"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment punctuation.definition.comment, string.quoted.docstring",
+        "settings": {
+          "foreground": "#616364"
         }
-      ]
-    },
-    "search.exclude": {
-        "node_modules": true
-    },
-    "breadcrumbs.enabled": false,
-    "files.exclude": {
-        "node_modules": true
-    },
-    "window.openFoldersInNewWindow": "on",
-    "window.newWindowDimensions": "maximized",
-    "window.restoreWindows": "none",
-    "files.hotExit": "onExitAndWindowClose",
-    "window.openFilesInNewWindow": "on",
-    "window.openWithoutArgumentsInNewWindow": "on",
-    "debug.openDebug": "neverOpen",
-    "explorer.decorations.colors": false,
-    "explorer.confirmDelete": false
+      },
+      {
+        "scope": "constant.language.php",
+        "settings": {
+          "foreground": "#F78C6C"
+        }
+      },
+      {
+        "scope": "variable.language.this.php",
+        "settings": {
+          "foreground": "#f0121e"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.return.php",
+          "keyword.control.foreach.php",
+          "keyword.control.if.php",
+          "keyword.control"
+        ],
+        "settings": {
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "comment storage.type",
+          "comment variable",
+          "comment support.variable", 
+          "comment support.class",
+          "comment support.type",
+          "comment entity.name.type",
+          "comment entity.name.class",
+          "comment keyword.operator",
+          "comment entity.punctuation",
+          "comment.block.documentation",
+          "punctuation.definition.bracket.curly.begin.jsdoc",
+          "punctuation.definition.bracket.curly.end.jsdoc",
+          "entity.name.type.instance.jsdoc",
+          "comment.block.documentation.js",
+          "source.js",
+          "punctuation.definition.block.tag.jsdoc",
+          "storage.type.class.jsdoc",
+          "keyword.other.phpdoc.php",
+          "comment.block.documentation.phpdoc.php",
+          "meta.class.body.php",
+          "meta.class.php",
+          "meta.embedded.block.php",
+          "text.html.php",
+          "meta.other.type.phpdoc.php",
+          "keyword.other.array.phpdoc.php",
+          "meta.other.type.phpdoc.php"
+          ],
+        "settings": {
+            "foreground": "#616364"
+        }
+      }
+    ]
+  },
+  "search.exclude": {
+      "node_modules": true
+  },
+  "breadcrumbs.enabled": false,
+  "files.exclude": {
+      "node_modules": true
+  },
+  "window.openFoldersInNewWindow": "on",
+  "window.newWindowDimensions": "maximized",
+  "window.restoreWindows": "none",
+  "files.hotExit": "onExitAndWindowClose",
+  "window.openFilesInNewWindow": "on",
+  "window.openWithoutArgumentsInNewWindow": "on",
+  "debug.openDebug": "neverOpen",
+  "explorer.decorations.colors": false,
+  "explorer.confirmDelete": false
 
 
 }
