@@ -99,7 +99,8 @@
   "window.openWithoutArgumentsInNewWindow": "on",
   "debug.openDebug": "neverOpen",
   "explorer.decorations.colors": false,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "git.ignoreLimitWarning": true
 
 
 }
