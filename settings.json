@@ -103,7 +103,9 @@
   "git.ignoreLimitWarning": true,
   "editor.wordWrap": "on",
   "window.zoomLevel": -1,
-  "zenMode.centerLayout": false
-
+  "zenMode.centerLayout": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+}
 
 }
